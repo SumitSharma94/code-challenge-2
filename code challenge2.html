@@ -1,0 +1,117 @@
+
+<!-- This is Code Challenge 2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+.container{
+    /* border: 2px solid black; */
+    height: 650px;
+}
+.inside1{
+border: 2px solid  rgb(236, 223, 236);
+height: 220px;
+background-color: rgb(54, 24, 54);
+
+}
+.inside2{
+border: 2px solid gray;
+height: 420px;
+background-color: rgb(172, 167, 167);
+}
+
+.card{
+    width: 300px;
+    float: left;
+left: 90px;
+
+}
+ .card:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.1); 
+ }   
+.maincard{
+    flex-direction: row;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+
+<div class="inside1">
+<p style="text-align: center;font-size: 40px;color: white;margin-top: 40px;">Simple Pricing</p>
+<p style="text-align: center;font-size: 20px;color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit assumenda veniam exercitationem architecto, aut eum necessitatibus vitae, ipsa ab illum perferendis commodi odio non neque fugit? Esse tenetur officiis quis.</p>
+</div>
+<div class="inside2">
+  <div class="maincard">
+    <div class="card">
+        <div class="card-header">
+          Basic
+        </div>
+        <div class="card-body">
+          <div>
+            <p>$4/month</p>
+          </div>
+          
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a onclick="myfunction()" href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+
+
+    <div class="card">
+        <div class="card-header">
+          Standard
+        </div>
+        <div class="card-body">
+          <div>
+            <p>$8/month</p>
+          </div>
+        
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a onclick="myfunction()" href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          Advance
+        </div>
+        <div class="card-body">
+          <div>
+            <p>$12/month</p>
+          </div>
+         
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a onclick="myfunction()" href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <h2 style="margin-top: 300px; text-align: center;">Frequently Asked Questions</h2>
+    <p style="font-size: 20px;">How does free trial work?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, consequatur est. Mollitia nobis quae molestiae natus iure reiciendis id consequ</p>
+  </div>
+    
+    </div>
+    <script>
+function myfunction() {
+  alert("Success");
+}
+
+    </script>
+</body>
+</html>
+
